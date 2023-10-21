@@ -1,0 +1,71 @@
+/* Estilos generales 
+Modificar...
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #6345b5;
+    color: #000000;
+    padding: 30px;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style: disc;
+}
+
+/* Estilos específicos de clases e ID */
+.sobre-mi {
+    background-color: #bc5050;
+    padding: 10px;
+}
+
+.intereses {
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+.experiencia article {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.habilidades {
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+.red-social img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
